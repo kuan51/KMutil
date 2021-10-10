@@ -35,12 +35,16 @@ namespace KMutil
             this.btnView = new System.Windows.Forms.Button();
             this.grpBoxPending = new System.Windows.Forms.GroupBox();
             this.listViewRequests = new System.Windows.Forms.ListView();
+            this.grpBoxNew = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.grpBoxPending.SuspendLayout();
+            this.grpBoxNew.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(12, 27);
+            this.btnNew.Location = new System.Drawing.Point(40, 27);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(68, 23);
             this.btnNew.TabIndex = 0;
@@ -60,7 +64,7 @@ namespace KMutil
             // lblPending
             // 
             this.lblPending.AutoSize = true;
-            this.lblPending.Location = new System.Drawing.Point(151, 9);
+            this.lblPending.Location = new System.Drawing.Point(166, 9);
             this.lblPending.Name = "lblPending";
             this.lblPending.Size = new System.Drawing.Size(129, 15);
             this.lblPending.TabIndex = 3;
@@ -68,7 +72,7 @@ namespace KMutil
             // 
             // btnView
             // 
-            this.btnView.Location = new System.Drawing.Point(151, 27);
+            this.btnView.Location = new System.Drawing.Point(193, 27);
             this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(68, 23);
             this.btnView.TabIndex = 2;
@@ -97,12 +101,44 @@ namespace KMutil
             this.listViewRequests.TabIndex = 0;
             this.listViewRequests.UseCompatibleStateImageBehavior = false;
             // 
+            // grpBoxNew
+            // 
+            this.grpBoxNew.AutoSize = true;
+            this.grpBoxNew.Controls.Add(this.label1);
+            this.grpBoxNew.Controls.Add(this.button1);
+            this.grpBoxNew.Location = new System.Drawing.Point(2, 56);
+            this.grpBoxNew.Name = "grpBoxNew";
+            this.grpBoxNew.Size = new System.Drawing.Size(428, 504);
+            this.grpBoxNew.TabIndex = 6;
+            this.grpBoxNew.TabStop = false;
+            this.grpBoxNew.Text = "New Request";
+            this.grpBoxNew.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(10, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormRequests
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(435, 550);
+            this.ClientSize = new System.Drawing.Size(436, 567);
+            this.Controls.Add(this.grpBoxNew);
             this.Controls.Add(this.lblPending);
             this.Controls.Add(this.btnView);
             this.Controls.Add(this.lblNew);
@@ -111,6 +147,8 @@ namespace KMutil
             this.Name = "FormRequests";
             this.Text = "Manage Requests";
             this.grpBoxPending.ResumeLayout(false);
+            this.grpBoxNew.ResumeLayout(false);
+            this.grpBoxNew.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,5 +162,8 @@ namespace KMutil
         private System.Windows.Forms.Button btnView;
         private System.Windows.Forms.GroupBox grpBoxPending;
         private System.Windows.Forms.ListView listViewRequests;
+        private System.Windows.Forms.GroupBox grpBoxNew;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

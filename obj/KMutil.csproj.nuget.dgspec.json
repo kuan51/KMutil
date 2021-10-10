@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linde\\source\\repos\\KMutil\\KMutil.csproj": {}
+    "C:\\Users\\linde\\OneDrive\\Documents\\GitHub\\KMutil\\KMutil.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linde\\source\\repos\\KMutil\\KMutil.csproj": {
+    "C:\\Users\\linde\\OneDrive\\Documents\\GitHub\\KMutil\\KMutil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linde\\source\\repos\\KMutil\\KMutil.csproj",
+        "projectUniqueName": "C:\\Users\\linde\\OneDrive\\Documents\\GitHub\\KMutil\\KMutil.csproj",
         "projectName": "KMutil",
-        "projectPath": "C:\\Users\\linde\\source\\repos\\KMutil\\KMutil.csproj",
+        "projectPath": "C:\\Users\\linde\\OneDrive\\Documents\\GitHub\\KMutil\\KMutil.csproj",
         "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linde\\source\\repos\\KMutil\\obj\\",
+        "outputPath": "C:\\Users\\linde\\OneDrive\\Documents\\GitHub\\KMutil\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linde\\AppData\\Roaming\\NuGet\\NuGet.Config",

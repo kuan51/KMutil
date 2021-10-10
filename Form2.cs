@@ -42,7 +42,26 @@ namespace KMutil
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-
+            string val = btnNew.Text;
+            switch (val)
+            {
+                case "New":
+                    grpBoxNew.Visible = true;
+                    break;
+                case "Minimize":
+                    grpBoxNew.Visible = false;
+                    break;
+            }
+            btnNew.Text = "Minimize";
+            if (grpBoxNew.Visible == true)
+            {
+                btnNew.Text = "Minimize";
+            }
+            else if (grpBoxNew.Visible == false)
+            {
+                btnNew.Text = "New";
+                this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            }
         }
     }
 }
